@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11472D791694B71100047EEF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11472D781694B71100047EEF /* UIKit.framework */; };
+		11472D7B1694B71100047EEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11472D7A1694B71100047EEF /* Foundation.framework */; };
+		11472D7D1694B71100047EEF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11472D7C1694B71100047EEF /* CoreGraphics.framework */; };
+		11472D831694B71100047EEF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11472D811694B71100047EEF /* InfoPlist.strings */; };
+		11472D851694B71100047EEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11472D841694B71100047EEF /* main.m */; };
+		11472D891694B71100047EEF /* AKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11472D881694B71100047EEF /* AKAppDelegate.m */; };
+		11472D8B1694B71100047EEF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 11472D8A1694B71100047EEF /* Default.png */; };
+		11472D8D1694B71100047EEF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11472D8C1694B71100047EEF /* Default@2x.png */; };
+		11472D8F1694B71100047EEF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11472D8E1694B71100047EEF /* Default-568h@2x.png */; };
+		11472D921694B71100047EEF /* AKMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11472D911694B71100047EEF /* AKMasterViewController.m */; };
+		11472D951694B71100047EEF /* AKDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11472D941694B71100047EEF /* AKDetailViewController.m */; };
+		11472D981694B71100047EEF /* AKMasterViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11472D961694B71100047EEF /* AKMasterViewController_iPhone.xib */; };
+		11472D9B1694B71100047EEF /* AKMasterViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11472D991694B71100047EEF /* AKMasterViewController_iPad.xib */; };
+		11472D9E1694B71100047EEF /* AKDetailViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11472D9C1694B71100047EEF /* AKDetailViewController_iPhone.xib */; };
+		11472DA11694B71100047EEF /* AKDetailViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11472D9F1694B71100047EEF /* AKDetailViewController_iPad.xib */; };
+		11472DA91694B76900047EEF /* AKMaster2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11472DA81694B76900047EEF /* AKMaster2ViewController.m */; };
+		11472DAC1694B77600047EEF /* AKDetail2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11472DAB1694B77600047EEF /* AKDetail2ViewController.m */; };
+		11472DAF1694B7B900047EEF /* AKSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11472DAE1694B7B900047EEF /* AKSlidingViewController.m */; };
+		11472DB21694B7C400047EEF /* AKSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11472DB11694B7C400047EEF /* AKSplitViewController.m */; };
+		11472DB81694B7E800047EEF /* ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11472DB51694B7E800047EEF /* ECSlidingViewController.m */; };
+		11472DB91694B7E800047EEF /* UIImage+ImageWithUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11472DB71694B7E800047EEF /* UIImage+ImageWithUIView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11472D741694B71100047EEF /* AKSlidingSplitViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AKSlidingSplitViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11472D781694B71100047EEF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		11472D7A1694B71100047EEF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		11472D7C1694B71100047EEF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		11472D801694B71100047EEF /* AKSlidingSplitViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AKSlidingSplitViewController-Info.plist"; sourceTree = "<group>"; };
+		11472D821694B71100047EEF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		11472D841694B71100047EEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		11472D861694B71100047EEF /* AKSlidingSplitViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AKSlidingSplitViewController-Prefix.pch"; sourceTree = "<group>"; };
+		11472D871694B71100047EEF /* AKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AKAppDelegate.h; sourceTree = "<group>"; };
+		11472D881694B71100047EEF /* AKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AKAppDelegate.m; sourceTree = "<group>"; };
+		11472D8A1694B71100047EEF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		11472D8C1694B71100047EEF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		11472D8E1694B71100047EEF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		11472D901694B71100047EEF /* AKMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AKMasterViewController.h; sourceTree = "<group>"; };
+		11472D911694B71100047EEF /* AKMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AKMasterViewController.m; sourceTree = "<group>"; };
+		11472D931694B71100047EEF /* AKDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AKDetailViewController.h; sourceTree = "<group>"; };
+		11472D941694B71100047EEF /* AKDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AKDetailViewController.m; sourceTree = "<group>"; };
+		11472D971694B71100047EEF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AKMasterViewController_iPhone.xib; sourceTree = "<group>"; };
+		11472D9A1694B71100047EEF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AKMasterViewController_iPad.xib; sourceTree = "<group>"; };
+		11472D9D1694B71100047EEF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AKDetailViewController_iPhone.xib; sourceTree = "<group>"; };
+		11472DA01694B71100047EEF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AKDetailViewController_iPad.xib; sourceTree = "<group>"; };
+		11472DA71694B76900047EEF /* AKMaster2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKMaster2ViewController.h; sourceTree = "<group>"; };
+		11472DA81694B76900047EEF /* AKMaster2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKMaster2ViewController.m; sourceTree = "<group>"; };
+		11472DAA1694B77600047EEF /* AKDetail2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKDetail2ViewController.h; sourceTree = "<group>"; };
+		11472DAB1694B77600047EEF /* AKDetail2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKDetail2ViewController.m; sourceTree = "<group>"; };
+		11472DAD1694B7B900047EEF /* AKSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKSlidingViewController.h; sourceTree = "<group>"; };
+		11472DAE1694B7B900047EEF /* AKSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKSlidingViewController.m; sourceTree = "<group>"; };
+		11472DB01694B7C400047EEF /* AKSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKSplitViewController.h; sourceTree = "<group>"; };
+		11472DB11694B7C400047EEF /* AKSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKSplitViewController.m; sourceTree = "<group>"; };
+		11472DB41694B7E800047EEF /* ECSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingViewController.h; sourceTree = "<group>"; };
+		11472DB51694B7E800047EEF /* ECSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingViewController.m; sourceTree = "<group>"; };
+		11472DB61694B7E800047EEF /* UIImage+ImageWithUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageWithUIView.h"; sourceTree = "<group>"; };
+		11472DB71694B7E800047EEF /* UIImage+ImageWithUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageWithUIView.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11472D711694B71100047EEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11472D791694B71100047EEF /* UIKit.framework in Frameworks */,
+				11472D7B1694B71100047EEF /* Foundation.framework in Frameworks */,
+				11472D7D1694B71100047EEF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11472D691694B71100047EEF = {
+			isa = PBXGroup;
+			children = (
+				11472D7E1694B71100047EEF /* AKSlidingSplitViewController */,
+				11472D771694B71100047EEF /* Frameworks */,
+				11472D751694B71100047EEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11472D751694B71100047EEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11472D741694B71100047EEF /* AKSlidingSplitViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11472D771694B71100047EEF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11472D781694B71100047EEF /* UIKit.framework */,
+				11472D7A1694B71100047EEF /* Foundation.framework */,
+				11472D7C1694B71100047EEF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		11472D7E1694B71100047EEF /* AKSlidingSplitViewController */ = {
+			isa = PBXGroup;
+			children = (
+				11472D871694B71100047EEF /* AKAppDelegate.h */,
+				11472D881694B71100047EEF /* AKAppDelegate.m */,
+				11472DAD1694B7B900047EEF /* AKSlidingViewController.h */,
+				11472DAE1694B7B900047EEF /* AKSlidingViewController.m */,
+				11472DB01694B7C400047EEF /* AKSplitViewController.h */,
+				11472DB11694B7C400047EEF /* AKSplitViewController.m */,
+				11472DB31694B7E800047EEF /* ECSlidingViewController */,
+				11472D7F1694B71100047EEF /* Supporting Files */,
+				11472D901694B71100047EEF /* AKMasterViewController.h */,
+				11472D911694B71100047EEF /* AKMasterViewController.m */,
+				11472D931694B71100047EEF /* AKDetailViewController.h */,
+				11472D941694B71100047EEF /* AKDetailViewController.m */,
+				11472DA71694B76900047EEF /* AKMaster2ViewController.h */,
+				11472DA81694B76900047EEF /* AKMaster2ViewController.m */,
+				11472DAA1694B77600047EEF /* AKDetail2ViewController.h */,
+				11472DAB1694B77600047EEF /* AKDetail2ViewController.m */,
+				11472D961694B71100047EEF /* AKMasterViewController_iPhone.xib */,
+				11472D991694B71100047EEF /* AKMasterViewController_iPad.xib */,
+				11472D9C1694B71100047EEF /* AKDetailViewController_iPhone.xib */,
+				11472D9F1694B71100047EEF /* AKDetailViewController_iPad.xib */,
+			);
+			path = AKSlidingSplitViewController;
+			sourceTree = "<group>";
+		};
+		11472D7F1694B71100047EEF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11472D801694B71100047EEF /* AKSlidingSplitViewController-Info.plist */,
+				11472D811694B71100047EEF /* InfoPlist.strings */,
+				11472D841694B71100047EEF /* main.m */,
+				11472D861694B71100047EEF /* AKSlidingSplitViewController-Prefix.pch */,
+				11472D8A1694B71100047EEF /* Default.png */,
+				11472D8C1694B71100047EEF /* Default@2x.png */,
+				11472D8E1694B71100047EEF /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		11472DB31694B7E800047EEF /* ECSlidingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				11472DB41694B7E800047EEF /* ECSlidingViewController.h */,
+				11472DB51694B7E800047EEF /* ECSlidingViewController.m */,
+				11472DB61694B7E800047EEF /* UIImage+ImageWithUIView.h */,
+				11472DB71694B7E800047EEF /* UIImage+ImageWithUIView.m */,
+			);
+			path = ECSlidingViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11472D731694B71100047EEF /* AKSlidingSplitViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11472DA41694B71100047EEF /* Build configuration list for PBXNativeTarget "AKSlidingSplitViewController" */;
+			buildPhases = (
+				11472D701694B71100047EEF /* Sources */,
+				11472D711694B71100047EEF /* Frameworks */,
+				11472D721694B71100047EEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AKSlidingSplitViewController;
+			productName = AKSlidingSplitViewController;
+			productReference = 11472D741694B71100047EEF /* AKSlidingSplitViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11472D6B1694B71100047EEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AK;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Orderbird AG";
+			};
+			buildConfigurationList = 11472D6E1694B71100047EEF /* Build configuration list for PBXProject "AKSlidingSplitViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 11472D691694B71100047EEF;
+			productRefGroup = 11472D751694B71100047EEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11472D731694B71100047EEF /* AKSlidingSplitViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11472D721694B71100047EEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11472D831694B71100047EEF /* InfoPlist.strings in Resources */,
+				11472D8B1694B71100047EEF /* Default.png in Resources */,
+				11472D8D1694B71100047EEF /* Default@2x.png in Resources */,
+				11472D8F1694B71100047EEF /* Default-568h@2x.png in Resources */,
+				11472D981694B71100047EEF /* AKMasterViewController_iPhone.xib in Resources */,
+				11472D9B1694B71100047EEF /* AKMasterViewController_iPad.xib in Resources */,
+				11472D9E1694B71100047EEF /* AKDetailViewController_iPhone.xib in Resources */,
+				11472DA11694B71100047EEF /* AKDetailViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11472D701694B71100047EEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11472D851694B71100047EEF /* main.m in Sources */,
+				11472D891694B71100047EEF /* AKAppDelegate.m in Sources */,
+				11472D921694B71100047EEF /* AKMasterViewController.m in Sources */,
+				11472D951694B71100047EEF /* AKDetailViewController.m in Sources */,
+				11472DA91694B76900047EEF /* AKMaster2ViewController.m in Sources */,
+				11472DAC1694B77600047EEF /* AKDetail2ViewController.m in Sources */,
+				11472DAF1694B7B900047EEF /* AKSlidingViewController.m in Sources */,
+				11472DB21694B7C400047EEF /* AKSplitViewController.m in Sources */,
+				11472DB81694B7E800047EEF /* ECSlidingViewController.m in Sources */,
+				11472DB91694B7E800047EEF /* UIImage+ImageWithUIView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		11472D811694B71100047EEF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11472D821694B71100047EEF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		11472D961694B71100047EEF /* AKMasterViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11472D971694B71100047EEF /* en */,
+			);
+			name = AKMasterViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		11472D991694B71100047EEF /* AKMasterViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11472D9A1694B71100047EEF /* en */,
+			);
+			name = AKMasterViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		11472D9C1694B71100047EEF /* AKDetailViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11472D9D1694B71100047EEF /* en */,
+			);
+			name = AKDetailViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		11472D9F1694B71100047EEF /* AKDetailViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11472DA01694B71100047EEF /* en */,
+			);
+			name = AKDetailViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11472DA21694B71100047EEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11472DA31694B71100047EEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11472DA51694B71100047EEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AKSlidingSplitViewController/AKSlidingSplitViewController-Prefix.pch";
+				INFOPLIST_FILE = "AKSlidingSplitViewController/AKSlidingSplitViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		11472DA61694B71100047EEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AKSlidingSplitViewController/AKSlidingSplitViewController-Prefix.pch";
+				INFOPLIST_FILE = "AKSlidingSplitViewController/AKSlidingSplitViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11472D6E1694B71100047EEF /* Build configuration list for PBXProject "AKSlidingSplitViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11472DA21694B71100047EEF /* Debug */,
+				11472DA31694B71100047EEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11472DA41694B71100047EEF /* Build configuration list for PBXNativeTarget "AKSlidingSplitViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11472DA51694B71100047EEF /* Debug */,
+				11472DA61694B71100047EEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11472D6B1694B71100047EEF /* Project object */;
+}
